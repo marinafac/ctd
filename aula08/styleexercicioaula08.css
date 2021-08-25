@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body{
+    background-color: #131313;
+}
+
+h1{
+    color: #ffffff;
+    font-family:"Roboto", Arial, Helvetica, sans-serif;
+}
+
+.media-picture{
+    height: 400px;
+    width: 100%;
+    background-image:url("https://www.showmetech.com.br/wp-content/uploads//2018/04/vingadores-marvel.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.review-score{
+    background-color:#e6bd09;
+    color: #ffffff;
+    padding: 12px;
+}
+
+h2{
+    color: steelblue;
+}
+
+P{
+    color: #bdbdbd;
+    font-family:"Roboto", Arial, Helvetica, sans-serif;
+}
+
+a{
+    color: white;
+    font-family:"Roboto", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color:steelblue;
+    padding: 20px 30px;
+       
+}
