@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Aula 13</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <form>
+        <div>
+            <img src="https://png.pngtree.com/element_pic/00/16/07/115783931601b5c.jpg" alt="Logo">
+            <h1>Título do Formulário</h1>
+        </div>
+
+        <!-- maxlengh - Limita os caracteres --> 
+       <div>
+       <label for="name">Nome: </label>
+            <input type="name" maxlengh="20" nome="name" id="name" placeholder="Digite seu nome">
+       </div>
+   
+
+       <div>
+            <label for="nascimento">Data de Nascimento: </label>
+            <input type="date" nome="nascimento" id="nascimento">
+        </div>
+
+       <div>
+           <label for="email">Email: </label>
+           <input type="email" nome="email" id="email" placeholder="email@email.com">
+       </div>
+   
+       <div>
+           <label for="telefone">Telefone: </label>
+           <input type="number" maxlengh="9" nome="telefone" id="telefone" placeholder="0 0000.0000">
+       </div>
+   
+       <div>
+           <label for="senha">Senha:</label>
+           <input type="password" nome="senha" id="senha" placeholder="Digite sua senha">
+       </div>
+   
+       <div>
+           <label for="senhaConfirmar">Repita sua senha: </label>
+           <input type="password" nome="senhaConfirmar" id="senhaConfirmar" placeholder="Confirme sua senha">
+       </div>
+   
+        <div>
+           <label for="chamado">Como você prefere ser chamado: <br> </label>
+           <select nome="chamado" id="chamado">
+               <option value="1">Funcionário</option>
+               <option value="2">Colaborador</option>
+               <option value="3">Moço</option>
+           </select>
+       </div>
+   
+        <div>
+           <label for="comentarios">Deixe seu comentário: <br></label>
+           <textarea type="comments" nome="senhaConfirmar" id="comentarios" cols="30" rows="5" placeholder="Deixe seu comentário"></textarea>
+       </div>
+   
+       <button type="submit">Enviar</button>
+       <button type="reset">Limpar formulário</button>
+       </form>            
+
+</body>
+</html>
