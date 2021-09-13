@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body{
+        font-family: 'Lato', sans-serif, Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 120px;
+    height: 100px;
+    padding: 5px;
+}
+
+form{
+    width: 580px;
+    background-color:honeydew;
+}
+
+h1{
+    font-size: 20px;
+}
+
+input{
+    border-radius: 5px;
+    padding: 5px;
+    display: block;
+    }
+
+div{
+    padding: 5px;
+    }
+
+select{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+h2{
+    font-size: 14px;
+}
+
+h3{
+    font-size: 9px;
+    font-style: italic;
+}
+
+fieldset{
+    font-style: italic, bold;
+}
+
+button{
+    background-color:blue;
+    color: white;
+    border-radius:5px;
+    padding: 20px;
+    margin: 20px;
+    position: relative;
+    left: 50%;
+}

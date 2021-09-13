@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício Aula 14</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form>
+
+        <div>
+            <img src="https://image.freepik.com/vetores-gratis/logotipo-cupcake-bolo-doce-logotipo-bolo-loja-logotipo-bolo-padaria-logo-vector-logo_180795-14.jpg" alt="Logo">
+            <h1>Bolos do Zé</h1>
+        </div>
+
+        <fieldset>
+            <legend>Monte seu bolo </legend>
+
+            <div>
+                <input type="radio" name="pequeno" id="pequeno"> 
+                <label for="pequeno">Pequeno </label>
+    
+                <input type="radio" name="medio" id="medio"> 
+                <label for="medio"> Médio </label>
+    
+                <input type="radio" name="grande" id="grande"> 
+                <label for="grande"> Grande </label>
+            </div>
+
+            <div>
+                <label for="massa"> Qual o sabor da massa: </label>
+                <select nome="massa" id="massa">
+                       <option value="01">Chocolate</option>
+                       <option value="02">Baunilha</option>
+                       <option value="03">Laranja</option>
+                       <option value="04">Limão</option>
+                       <option value="05">Pão de Ló</option>
+               </select>
+            </div>
+
+            <div>
+                <label for="cobertura">Escolha a cobertura: </label>
+                <select nome="cobertura" id="cobertura">
+                   <optgroup label="Chocolates">
+                       <option value="01">Chocolate Branco</option>
+                       <option value="02">Chocolate Preto</option>
+                       <option value="03">Chocolate Meio Amargo</option>
+                   </optgroup>
+                   <optgroup label="Frutas">
+                    <option value="01">Limão</option>
+                    <option value="02">Morango</option>
+                    <option value="03">Maracujá</option>
+                   </optgroup>
+                <optgroup label="Premium">
+                    <option value="01">Nutella</option>
+                    <option value="02">Leite Ninho</option>
+                    <option value="03">Ovomaltine</option>
+                </optgroup>
+               </select>
+            </div>
+
+            <div>
+                <label for="obs">Observações sobre o seu pedido:</label>
+               <textarea type="comments" nome="obs" id="obs" cols="40" rows="10" placeholder="Deixe seu comentário"></textarea>
+            </div>
+
+        </fieldset>
+   
+        <fieldset>
+            <legend>Seus dados</legend>
+
+            <div>
+                <input type="checkbox" checked id="entrega">
+                <label for=" entrega"> Pedido via delivery </label>
+            </div>
+
+            <div>
+                <label for="name">Nome: </label>
+                 <input type="name" maxlengh="20" nome="name" id="name" placeholder="Digite seu nome">
+            </div>
+
+            <div>
+                <label for="rua">Endereço: </label>
+                 <input type="rua" maxlengh="50" nome="rua" id="rua" placeholder="Digite seu endereço">
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <label> Forma de Pagamento</label>
+            <h3>Pagamento deve ser feito na hora da entrega</h3>
+
+            <div>
+                <h2>Esolha a forma de pagamento</h2>
+                <input type="radio" name="dinheiro" id="dinheiro"> 
+                <label for="dinheiro">Dinheiro </label>
+    
+                <input type="radio" name="cartao" id="cartao"> 
+                <label for="cartao"> Cartão </label>
+    
+                <input type="radio" name="pix" id="pix"> 
+                <label for="pix"> PIX </label>
+            </div>
+
+            <div>
+                    <label for="troco">Vai precisar de troco?:</label>
+                   <textarea type="comments" nome="troco" id="troco" cols="30" rows="10" placeholder="Digite aqui quanto"></textarea>
+            </div>
+
+        </fieldset>
+
+        <button type="submit">Enviar pedido!</button>
+    </form>
+    
+</body>
+</html>
