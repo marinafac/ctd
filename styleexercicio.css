@@ -1,0 +1,43 @@
+
+h1::before{
+    content:"Teste da aula"
+}
+
+p::first-letter{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+input{
+    margin: 10px;
+}
+input:hover{
+    color: aqua;
+    opacity: .5;
+    padding: 12px;
+}
+
+input:valid{
+    border-color: green;
+}
+
+input:invalid{
+    border-color: red;
+}
+input:enabled{
+    background-color: green;
+    opacity: .2;
+    
+}
+.checkbox:checked {
+    margin-left: 2550px;
+    border: 4px solid red;
+}
+
+td:nth-child(odd){
+    color: red;
+}
+input:disabled{
+    background-color: brown;
+    opacity: .2;
+}
