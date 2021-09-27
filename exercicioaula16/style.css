@@ -1,0 +1,67 @@
+
+
+.bola{
+    font-size: 72px;
+    text-align: center;
+    animation-name: float;
+    animation-duration: 5s ;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes float{
+
+    0%{
+        opacity: 0;
+    }
+    25%{
+
+        transform: translate(100px);
+    }
+    50%{
+        opacity: 1;
+    }
+    75%{
+        transform: translate(-180px);
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+.divisor{
+    margin: 80px;
+    text-align: center;
+    font-weight: 600;
+}
+
+button{
+    width: 200px;
+    border: none;
+    padding: 12px 32px;
+    display: block;
+
+    animation-name: button;
+    animation-duration: 2s ;
+    animation-iteration-count: infinite;
+ 
+}
+
+button:hover{
+    color: white;
+    background-color: indigo;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+
+    
+    /* transform: rotate(60deg); */
+    transform: translate(300px);
+ } 
+
+ @keyframes button{
+
+    30%{
+        transform: scale(2);
+        transform: skew(30deg);
+    }
+}
